@@ -3,10 +3,42 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Form Validator</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <div class="container">
+<form id="form" class="form">
+  <h2> Register with us!</h2>
+
+  <div class = "form-control">
+    <lablel for="username">Username</lablel>
+    <input type="text" id="username" placeholder="Enter Usename"> </input>
+    <small> Error message</small>
+  </div>
+
+  <div class = "form-control">
+    <lablel for="email">Email</lablel>
+    <input type="text" id="email" placeholder="Enter Email"> </input>
+    <small> Error message</small>
+  </div>
+
+  <div class = "form-control">
+    <lablel for="password">Password</lablel>
+    <input type="password" id="password" placeholder="Enter password"> </input>
+    <small> Error message</small>
+  </div>
+
+  <div class = "form-control">
+    <lablel for="password2">Confirm Password</lablel>
+    <input type="password" id="password2" placeholder="Enter password again"> </input>
+    <small> Error message</small>
+  </div>
+
+  <button>Submit</button>
+
+</form>
+    </div>
     <script src="scripts.js"></script>
   </body>
 </html>
